@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+#nav {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+}
+
+#navbarNavAltMarkup .nav-link{
+    width: 150px;
+    text-align: center;
+}
+
+.img-frame {
+    width: 100%;
+    max-width: 380px;
+    max-height: 380px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cv_button{
+    background-color: transparent;
+    height: 40px;
+    margin: 10px;
+}
+
+#experience-list .list-group-item{
+    background-color: transparent;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: transparent;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#last{
+    border-bottom: transparent;
+}
+
+.div-placeholder{
+    background-color: #E5E5E5;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.div-placeholder img{
+   width: 100%;
+   height: auto;
+}
+
+.footer_icon{
+    font-size: 32px;
+    color: #E5E5E5;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
