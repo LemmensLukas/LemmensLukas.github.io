@@ -18,6 +18,18 @@ function typeText(index) {
     }
 }
 
+var imageElements = document.querySelectorAll('[data-bs-image]');
+
+    imageElements.forEach(function (img) {
+      img.addEventListener('click', function () {
+        // Haal de src van de grote afbeelding op uit het data attribuut
+        var imageSrc = img.getAttribute('data-bs-image');
+        
+        // Zet de src van de modal afbeelding naar de opgehaalde src
+        document.getElementById('modalImage').src = imageSrc;
+      });
+    });
+
 // Start typing
 typeText(0);
 
