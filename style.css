@@ -9,13 +9,25 @@ body {
     font-size: 20px;
 }
 
-@media (min-width: 375px) { 
+@media only screen and (max-width: 300px) {
     .card{
-        max-width: 20rem;
+        max-width: 12rem;
     }
  }
 
- @media (min-width: 762px) { 
+@media (min-width: 300px) { 
+    .card{
+        max-width: 16rem;
+    }
+ }
+
+ @media (min-width: 400px) { 
+    .card{
+        max-width: 24rem;
+    }
+ }
+
+ @media (min-width: 768px) { 
     .card{
         max-width: 32rem;
     }
